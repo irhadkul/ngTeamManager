@@ -1,0 +1,6 @@
+<mat-nav-list>
+    <a mat-list-item *ngFor="let team of teams" routerLink={{team.id}} routerLinkActive="active" appHighlightElement>
+      {{team.name}}
+    </a>
+
+</mat-nav-list>
